@@ -16,7 +16,7 @@
 //   EX11) Write a function to add a new link into the navbar
 
 let addLinkToNav = function () {
-    let nav = document.getElementsByClassName(nav)
+    let nav = document.getElementsByClassName("nav")
     let item = document.createElement("a")
     item.setAttribute("class", "p-2")
     item.setAttribute("class", "text-muted")
@@ -24,3 +24,10 @@ let addLinkToNav = function () {
     item.innerText = "new item"
     nav.appendChild(item)
 }
+
+// EX12) Write a function to change the color of the main title
+
+let changeColorH1 = function{
+    let h1 = document.getElementsByClassName("nav")
+}
+
