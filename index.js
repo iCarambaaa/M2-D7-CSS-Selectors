@@ -35,6 +35,7 @@ let changeColorH1 = function () {
 //EX13) Write a function to change the background of the jumbotron
 
 let changeJumBg = function () {
-    let jum = document.querySelector("div .bg-dark")
-    jum.style.backgroundColor = "red!important"
+    let jum = document.querySelector("div .jumbotron")
+    jum.classList.remove("bg-dark")
+    jum.classList.add("jumbg")
 }
