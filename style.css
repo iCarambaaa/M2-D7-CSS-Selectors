@@ -23,8 +23,40 @@
 }
 
 /* EX5) Write a selector to target the "even" links in the navbar */
+
+.nav-scroller>nav>a:nth-child(even){
+    color:darkslategrey !important
+}
+
 /* EX6) Write a selector to target the last blog post */
-/* EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives ) */
+
+.blog-post:last-of-type{
+    background-color: gold;
+}
+
+
+/* EX7) Write a selector to target all the li in the first ordered-list in the sidebar ( Archives ) */
+
+.p-4>.list-unstyled.mb-0:first-of-type{
+    background-color: gold;
+}
+
 /* EX8) Write a selector to target the second post author */
-/* EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly */
+
+div.blog-post:nth-child(3)>p:first-of-type>a:first-of-type{
+    color:orange
+}
+
+/* EX9) Write a selector to target the "back to top" link
+#### EXTRA Try doing it without targeting the footer element directly */
+
+
+body>*:last-of-type > p:last-child>a{
+    color: black;
+    font-weight: 800;
+}
 /* EX10) Write a selector to target the footer */
+
+footer{
+    background-color: gold;
+}
