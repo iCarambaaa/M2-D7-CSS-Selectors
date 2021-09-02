@@ -1,69 +1,66 @@
 /* EX1) Write a selector to target the h1 in jumbotron */
 
-.jumbotron>div>h1{
-    color:orangered
+.jumbotron > div > h1 {
+  color: orangered;
 }
 
 /* EX2) Write a selector to target every children of the navbar */
 
-.nav-scroller *{
-    background-color: gold;
+.nav-scroller * {
+  background-color: gold;
 }
 
 /* EX3) Write a selector to target the "continue reading..." inside the jumbotron */
 
-.jumbotron>div>p>a{
-    color:orangered !important;
+.jumbotron > div > p > a {
+  color: orangered !important;
 }
 
 /* EX4) Write a selector to target the first blogpost */
 
-.blog-post:first-of-type{
-    background-color: gold;
+.blog-post:first-of-type {
+  background-color: gold;
 }
 
 /* EX5) Write a selector to target the "even" links in the navbar */
 
-.nav-scroller>nav>a:nth-child(even){
-    color:darkslategrey !important
+.nav-scroller > nav > a:nth-child(even) {
+  color: darkslategrey !important;
 }
 
 /* EX6) Write a selector to target the last blog post */
 
-.blog-post:last-of-type{
-    background-color: gold;
+.blog-post:last-of-type {
+  background-color: gold;
 }
-
 
 /* EX7) Write a selector to target all the li in the first ordered-list in the sidebar ( Archives ) */
 
-.p-4>.list-unstyled.mb-0:first-of-type > li{
-    background-color: gold;
+.p-4 > .list-unstyled.mb-0:first-of-type > li {
+  background-color: gold;
 }
 
 /* EX8) Write a selector to target the second post author */
 
-div.blog-post:nth-child(3)>p:first-of-type>a:first-of-type{
-    color:orange
+div.blog-post:nth-child(3) > p:first-of-type > a:first-of-type {
+  color: orange;
 }
 
 /* EX9) Write a selector to target the "back to top" link
 #### EXTRA Try doing it without targeting the footer element directly */
 
-
-body *:last-of-type > p:last-child>a{
-    color: black;
-    font-weight: 800;
+body *:last-of-type > p:last-child > a {
+  color: black;
+  font-weight: 800;
 }
 /* EX10) Write a selector to target the footer */
 
-footer{
-    background-color: gold;
+footer {
+  background-color: gold;
 }
-
 
 /*EX13*/
 
-.jumbg{
-    background-color: bisque;
+.jumbg {
+  background-color: bisque;
 }

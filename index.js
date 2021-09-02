@@ -61,5 +61,11 @@ let changeSize = function(){
 //  EX16) Write a function to remove the "Search" magnifying glass icon
 
 let removeIcon = function() {
-
+    let kill = document.querySelector(".mx-3")
+    kill.style.display="none"
 }
+
+// EX17) Write a function to trim just the first 50 characters in the first paragraph for each blog post
+
+// EX18) Write a function and attach it to the "Newer" button, to add new Blog Post (just div and title)
+
