@@ -37,7 +37,7 @@
 
 /* EX7) Write a selector to target all the li in the first ordered-list in the sidebar ( Archives ) */
 
-.p-4>.list-unstyled.mb-0:first-of-type{
+.p-4>.list-unstyled.mb-0:first-of-type > li{
     background-color: gold;
 }
 
@@ -60,6 +60,9 @@ body *:last-of-type > p:last-child>a{
 footer{
     background-color: gold;
 }
+
+
+/*EX13*/
 
 .jumbg{
     background-color: bisque;

@@ -9,7 +9,7 @@
     EX17) Write a function to trim just the first 50 characters in the first paragraph for each blog post
     EX18) Write a function and attach it to the "Newer" button, to add new Blog Post (just div and title)
     EX19) Write a function and attach it to the "Older" button, to remove the last Blog Post
-    EX20) Write an alert with the name of the author every time the user hover with the mouse over an author name
+    EX20)                      
 */
 
 
@@ -38,4 +38,28 @@ let changeJumBg = function () {
     let jum = document.querySelector("div .jumbotron")
     jum.classList.remove("bg-dark")
     jum.classList.add("jumbg")
+}
+
+//EX14) Write a function to remove all the links under "Elsewhere"
+
+let removeLinks = function(){
+    let remove = document.querySelector("aside div:last-of-type > ol")
+    remove.innerHTML = ""
+}
+
+// body > main > div > aside > div:nth-child(3) > ol
+
+
+// EX15) Write a function to change the column size for heading in jumbotron
+
+let changeSize = function(){
+    let size = document.querySelector(".jumbotron > .col-md-6")
+    size.classList.remove("col-md-6")
+    size.classList.add("col-md-4")
+}
+
+//  EX16) Write a function to remove the "Search" magnifying glass icon
+
+let removeIcon = function() {
+
 }
